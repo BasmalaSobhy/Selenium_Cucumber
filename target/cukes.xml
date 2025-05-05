@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="20.055" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="User uses Alert page" name="user uses jsConfirm" time="7.38">
+<system-out><![CDATA[
+Given user goes to alert page...............................................passed
+When user clicks on ConfirmJs button........................................passed
+And user clicks on ok on the alert..........................................passed
+Then A result message will appear...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User uses Alert page" name="user uses jsPrompt - #1.1" time="6.224">
+<system-out><![CDATA[
+Given user goes to alert page...............................................passed
+When user clicks on PromptJs button.........................................passed
+And user sends "Assert".....................................................passed
+And user clicks on ok on the alert..........................................passed
+Then A result message will appear...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User uses Alert page" name="user uses jsPrompt - #1.2" time="6.199">
+<system-out><![CDATA[
+Given user goes to alert page...............................................passed
+When user clicks on PromptJs button.........................................passed
+And user sends "Alert"......................................................passed
+And user clicks on ok on the alert..........................................passed
+Then A result message will appear...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
